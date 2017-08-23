@@ -29,7 +29,7 @@ namespace StoryParser
             _lifeline = new List<Lifepoint>();
             _properties = new List<SubjectProperty>();
             _knowledge = new List<StoryParser.Knowledge>();
-            Quotes = new List<Quotation>();
+            _quotes = new List<Quotation>();
             Story.maxID = _id = id;
         }
         #endregion
