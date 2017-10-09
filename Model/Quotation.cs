@@ -9,7 +9,10 @@ namespace StoryParser
     public enum QuoteTypes
     {
         CharacterImage,
-        Funny
+        Plot,
+        Funny,
+        Aphorism,
+        Lifehack
     }
     class Quotation
     {
